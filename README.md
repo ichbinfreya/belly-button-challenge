@@ -45,7 +45,7 @@ How to View the Logs:
    - At the section "Code and Automation", click into the "Pages"
    ![image](https://github.com/user-attachments/assets/506798e6-1d0b-46e9-a966-c6734de5670e)
    - Build the main branch into the GitHub page
-   - The live website can be deployed at [web](https://ichbinfreya.github.io/belly-button-challenge/)
+   - The live website can be deployed at [Belly Button Biodiversity Dashboard](https://ichbinfreya.github.io/belly-button-challenge/)
 
 ## How to Access the Web
 
