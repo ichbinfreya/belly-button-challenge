@@ -4,7 +4,7 @@ This project is an interactive dashboard that visualizes the Belly Button Biodiv
 
 ## Project Overview
 
-- **Data Source:** The dataset is read in using the D3 library from the URL: https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json 
+- **Data Source:** The dataset is read in using the D3 library from the URL [samples.json](https://static.bc-edx.com/data/dla-1-2/m14/lms/starter/samples.json).
 - **Technology Stack:** HTML, CSS, JavaScript, D3.js, Plotly.js.
 
 ## Features
@@ -41,8 +41,15 @@ How to View the Logs:
     - Using console.log in these locations will give us detailed insight into how the data is being processed and will help us quickly identify any issues or unexpected behaviors.
 
 6. **Deployment**: The app is deployed using GitHub Pages, making it accessible as a static web page.
+   - Go to Settings in GitHub page
+   - At the section "Code and Automation", click into the "Pages"
+   ![image](https://github.com/user-attachments/assets/506798e6-1d0b-46e9-a966-c6734de5670e)
+   - Build the main branch into the GitHub page
+   - The live website can be deployed at [web](https://ichbinfreya.github.io/belly-button-challenge/)
 
 ## How to Access the Web
+
+To run the project locally, git clone the repo:
 
 1. Open the Project in Visual Studio Code
 3. Navigate to the project folder in VS Code.
@@ -64,6 +71,3 @@ How to View the Logs:
 3. **Displaying Metadata**: The demographic information is displayed using the buildMetadata function, which filters and appends relevant data to the #sample-metadata panel.
   
 4. **Dynamic Updates**: The `optionChanged()` function is triggered when a new sample is selected, calling `buildCharts()` and `buildMetadata()` to update the visuals.
-
-
-
